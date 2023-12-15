@@ -1,7 +1,7 @@
 /* Стили для заголовка и навигации в хедере */
 header {
     background-color: #333;
-    color: #fff;
+    color: green;
     text-align: center;
     padding: 20px 0;
 }
@@ -23,7 +23,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: yellow #fff;
 }
 
 /* Стили для статей в основной части */
@@ -52,7 +52,7 @@ article p {
 /* Стили для сайдбара */
 aside {
     width: 30%;
-    background-color: #f4f4f4;
+
     padding: 20px;
     border: 1px solid #ddd;
 }
@@ -73,14 +73,14 @@ aside ul li {
 /* Стили для футера */
 footer {
     background-color: #333;
-    color: #fff;
+    color: yellow;
     text-align: center;
     padding: 10px 0;
 }
 
 /* Оформление ссылок */
 a {
-    color: #007acc;
+    color: yellow;
     text-decoration: none;
 }
 
