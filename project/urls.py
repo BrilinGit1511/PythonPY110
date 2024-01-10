@@ -15,7 +15,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 from random import random
 from django.http import HttpResponse, JsonResponse
@@ -36,5 +36,7 @@ urlpatterns = [
     path('weather/', my_view),
     path('product/', products_view),
     path('', shop_view),
+    path('', include('store.urls')),
+    path('', include('app_weather.urls')),
 ]
 
